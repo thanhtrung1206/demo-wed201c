@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic HTML5 Lab</title>
+    <style>
+        header,
+        footer {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            padding: 15px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="header">
+            <header>
+                <h1>Welcome to the HTML5 Lab</h1>
+            </header>
+        </div>
+
+        <div id="main-content">
+            <main>
+
+                <h2>Programming Languages</h2>
+                <ol>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>C++</li>
+                </ol>
+
+                <h2>Web Browsers</h2>
+                <ul>
+                    <li>Chrome</li>
+                    <li>Firefox</li>
+                    <li>Edge</li>
+                </ul>
+                <h2>Student Information</h2>
+                <table>
+                    <tr>
+                        <th>No</th>
+                        <th>Full Name</th>
+                        <th>CLass</th>
+                        <th>Email</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Nguyen Van A</td>
+                        <td>CS20</td>
+                        <td>a@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Tran Thi B</td>
+                        <td>CS20</td>
+                        <td>b@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Le Van C</td>
+                        <td>CS20</td>
+                        <td>c@example.com</td>
+                    </tr>
+                </table>
+                <h2>HTML5 and Forms</h2>
+                <p>This page demonstrates basic <span style="color: red; font-weight: bold;">HTML5</span> elements
+                    including <span style="color: red; font-weight: bold;">form</span> inputs.</p>
+                <h2>HTML5 Logo</h2>
+                <img src="https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?cs=srgb&dl=pexels-pixabay-147411.jpg&fm=jpg"
+                    alt="HTML5 Logo" width="1000">
+                <p>Visit <a href="https://www.w3schools.com" target="_blank">W3Schools</a> to learn more about HTML5.
+                </p>
+                <h2>Registration Form</h2>
+                <form>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname"><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password"><br><br>
+
+                    Gender:<br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br><br>
+
+                    Hobbies:<br>
+                    <input type="checkbox" id="coding" name="hobbies" value="Coding">
+                    <label for="coding">Coding</label><br>
+                    <input type="checkbox" id="design" name="hobbies" value="Design">
+                    <label for="design">Design</label><br>
+                    <input type="checkbox" id="gaming" name="hobbies" value="Gaming">
+                    <label for="gaming">Gaming</label><br><br>
+
+                    <label for="notes">Notes:</label><br>
+                    <textarea id="notes" name="notes" rows="4" cols="30"></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>
